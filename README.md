@@ -63,9 +63,8 @@ trading:
 | Metric             | Value |
 |--------------------|-------|
 | Initial Balance   | $100,000 |
-| Final Balance     | $XXX,XXX |
-| Sharpe Ratio      | [TBD] |
-| Max Drawdown      | [TBD] |
+| Final Balance     | $69,490.70 |
+| Rate | 90.38% |
 
 ## Contribution
 
