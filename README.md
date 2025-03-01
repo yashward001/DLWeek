@@ -1,4 +1,4 @@
-# StraddleAI
+<img width="1201" alt="Screenshot 2025-03-02 at 5 38 28 AM" src="https://github.com/user-attachments/assets/709fd0dc-bd20-4426-9f48-aa8adb580165" /># StraddleAI
 
 **Team: Innovators Inc.**
 
@@ -61,3 +61,42 @@ StraddleAI/
 │   ├── ensemble.py               # Ensemble decision-making module
 ├── utils/
 │   ├── visualisation.py          # Visualization helper functions
+
+## Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YourUsername/StraddleAI.git
+cd StraddleAI
+
+### 2. Set Up a Virtual Environment
+```bash
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+
+## Usage
+
+### 1. Real-Time Data Pipeline
+StraddleAI fetches 1-hour intraday data from Alpha Vantage via the module  
+`data/realtime_data_pipeline.py`. This module retrieves data, preprocesses it (computing returns), and calculates technical indicators like SMA_10 and RSI_14.
+
+### 2. Sentiment Analysis
+The project includes a sentiment analysis pipeline (`sentiment/sentiment_analysis.py`) that leverages the Perplexity API and FinBERT to extract market sentiment. If no sentiment data is available, the system defaults to a neutral sentiment score.
+
+### 3. Reinforcement Learning
+The RL agent, built using Stable Baselines3 (DQN), is trained (or loaded if previously trained) on historical data. The trained model is saved to `models/trained_rl_model_final.zip` and reused to avoid retraining.
+
+### 4. Ensemble Trading and Risk Management
+The ensemble decision is made by combining signals from:
+- The RL model,
+- Traditional technical strategies,
+- A transformer meta-model.
+
+The risk management module (`risk/risk_management.py`) simulates the trading performance over historical data while adjusting for risk factors like stop-loss, take-profit, and maximum drawdown.
+
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+
