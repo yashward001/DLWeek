@@ -19,8 +19,8 @@ The **StraddleAI Dashboard** is a sleek and modern web-based application designe
 
 ## ✨ Features
 
-- **📈 NVDA Stock Price Chart (24h)**  
-  - Interactive line chart displaying NVIDIA's (NVDA) price movement over the last 24 hours.
+- **📈 Stock Price Chart (24h)**  
+  - Interactive line chart displaying stock price movement over the last 24 hours.
   - Time-stamped price fluctuations for better trend analysis.
 
 - **💰 Real-Time Stock Data**  
