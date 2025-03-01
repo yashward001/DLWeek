@@ -9,6 +9,57 @@ StraddleAI is an AI-powered trading strategy that implements a **Long Straddle O
 - **Backtesting and simulation support** to validate trading performance.
 - **Risk management mechanisms** for better drawdown control.
 
+## Front End
+
+![image](https://github.com/user-attachments/assets/aba32ac6-d525-46dd-940d-9f2294b515df)
+
+# 📊 StraddleAI Dashboard
+
+The **StraddleAI Dashboard** is a sleek and modern web-based application designed to provide real-time stock insights, price tracking, and trade recommendations.
+
+## ✨ Features
+
+- **📈 NVDA Stock Price Chart (24h)**  
+  - Interactive line chart displaying NVIDIA's (NVDA) price movement over the last 24 hours.
+  - Time-stamped price fluctuations for better trend analysis.
+
+- **💰 Real-Time Stock Data**  
+  - **Current Price:** `$824.18`  
+  - **Daily Change:** `+4.56%`  
+  - **Market Cap:** `2030.00B`  
+  - **52-Week Range:** `$222.97 - $974.00`  
+  - **Volume:** `45.67M`  
+
+- **🔎 Trade Parameters & Risk Levels**  
+  - Users can assess risk levels categorized as:
+    - 🟢 **Low**
+    - 🟡 **Medium**
+    - 🔴 **High**
+  
+- **🤖 AI-Based Trade Recommendation**  
+  - The model analyzes current market trends and risk tolerance to provide actionable recommendations.
+  - Current suggestion: **✅ Buy NVDA**  
+
+## 🎨 UI/UX Design
+
+- **Dark-themed interface** for a professional and trader-friendly experience.
+- **Smooth data visualization** with a responsive price chart.
+- **Easy-to-read financial metrics** for quick decision-making.
+
+## 🚀 Tech Stack
+
+- **Frontend:** React.js (with Tailwind CSS for styling)
+- **Charts:** Recharts.js for interactive stock price visualization
+- **Backend:** API integration for real-time stock data retrieval
+
+## 📌 Future Enhancements
+
+- Multi-stock selection for diversified insights
+- Advanced analytics & forecasting models
+- User customization for personalized dashboard experience
+
+
+
 ## Installation
 
 To install StraddleAI, follow these steps:
