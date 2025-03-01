@@ -160,7 +160,7 @@ INFO: Maximum Drawdown: [TBD]
 Modify `config.yaml` to customize trading parameters, including:
 ```yaml
 trading:
-  capital: 100000
+  capital: 10000
   risk_tolerance: medium
 ```
 
