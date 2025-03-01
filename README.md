@@ -121,17 +121,6 @@ python main.py
 
 ## Trading Simulation Results
 
-Our risk-managed ensemble trading strategy was backtested on a three-year dataset using 1-hour intraday data from Alpha Vantage. The system combines technical analysis, sentiment data, a reinforcement learning (RL) agent, and a transformer meta-model to generate ensemble trading decisions. Below are some key performance metrics and sample debug logs from the simulation.
-
-### Key Metrics
-
-- **Initial Portfolio Balance:** \$10,000  
-- **Final Portfolio Balance:** \$69,490.70  
-- **Total Profit:** \$59,490.70  
-- **Profit Increase:** ~594.91% over the simulation period
-
-### Debug Log Sample
-
 Our trading bot was rigorously backtested on 3 years of historical AAPL stock data using 1-hour intraday data from Alpha Vantage. The simulation was configured with a **medium risk profile** and employed profit compounding after every trade. This means that the gains from each trade were reinvested, leading to exponential growth over time.
 
 ### Simulation Setup
@@ -156,6 +145,7 @@ Our trading bot was rigorously backtested on 3 years of historical AAPL stock da
 - **Compounded Growth:** The compounding effect contributed significantly to the overall profit, as gains from each trade were reinvested to fuel further returns.
 - **Sharpe Ratio:** [Insert Sharpe Ratio]  
 - **Maximum Drawdown:** [Insert Maximum Drawdown]
+
 
 Snipet
 
