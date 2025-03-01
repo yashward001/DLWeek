@@ -1,5 +1,3 @@
-<img width="1201" alt="Screenshot 2025-03-02 at 5 38 28 AM" src="https://github.com/user-attachments/assets/709fd0dc-bd20-4426-9f48-aa8adb580165" /># StraddleAI
-
 **Team: Innovators Inc.**
 
 ## Overview
@@ -98,5 +96,28 @@ The risk management module (`risk/risk_management.py`) simulates the trading per
 ### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
+
+### 5. Visualization
+Visualizations are provided via functions in `utils/visualisation.py` to show trading performance, such as portfolio balance history, drawdowns, and more.
+
+### 6. Running the Project
+Execute the main pipeline by running:
+```bash
+python main.py
+
+## Customization
+
+- **Risk Parameters:**  
+  Edit the `risk/risk_management.py` file to adjust the risk parameters (position size, stop-loss, take-profit, etc.) according to your trading preferences.
+
+- **Ensemble Weights:**  
+  Modify the weights in the ensemble function (`strategies/ensemble.py`) to fine-tune how much influence each component (RL, technical strategies, transformer) has on the final decision.
+
+- **Additional Technical Indicators:**  
+  Enhance the feature set by adding more technical indicators in `data/realtime_data_pipeline.py` or `data/data_pipeline.py`.
+
+- **Sentiment Analysis Integration:**  
+  Update the sentiment analysis module if you wish to use different models or API endpoints for improved sentiment extraction.
+
 
 
