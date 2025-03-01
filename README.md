@@ -49,37 +49,6 @@ StraddleAI is an AI-powered trading strategy that implements a **Long Straddle O
 
 ---
 
-## Architecture & Directory Structure
-project/
-├── main.py                      # Main entry point for the pipeline
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-├── data/
-│   ├── __init__.py
-│   ├── realtime_data_pipeline.py  # Real-time data fetching & preprocessing from Alpha Vantage
-│   └── data_pipeline.py         # (Optional) Simulated or historical data pipeline
-├── models/
-│   ├── __init__.py
-│   ├── rl_model.py              # Custom trading environment and RL model (DQN)
-│   ├── transformer_model.py     # Transformer meta-model for ensemble decision making
-│   └── trained_rl_model_final.zip  # Pre-trained RL model file (if available)
-├── risk/
-│   ├── __init__.py
-│   └── risk_management.py       # Risk management functions and simulation
-├── sentiment/
-│   ├── __init__.py
-│   └── sentiment_analysis.py    # Sentiment analysis using Perplexity/FinBERT
-├── strategies/
-│   ├── __init__.py
-│   ├── trading_strategies.py    # Individual technical/trading strategies
-│   └── ensemble.py              # Ensemble functions combining multiple signals
-└── utils/
-    ├── __init__.py
-    └── visualisation.py         # Visualization helpers (charts and plots)
-
----
-
-
 ## Modules Description
 
 ### Data Pipeline
