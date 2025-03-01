@@ -84,11 +84,11 @@ project/
 
 ##  Features
 
-- ** Stock Price Chart (24h)**  
+- **Stock Price Chart (24h)**  
   - Interactive line chart displaying stock price movement over the last 24 hours.
   - Time-stamped price fluctuations for better trend analysis.
 
-- ** Real-Time Stock Data**  
+- **Real-Time Stock Data**  
 
 - **🔎 Trade Parameters & Risk Levels**  
   - Users can assess risk levels categorized as:
