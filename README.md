@@ -75,8 +75,3 @@ We welcome contributions! Follow these steps:
 3. Commit your changes (`git commit -m "Added new feature"`).
 4. Push to your fork and submit a PR (`git push origin feature-branch`).
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any issues, feel free to open an issue on GitHub or contact us at `support@straddleai.com`.
