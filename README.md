@@ -13,35 +13,31 @@ StraddleAI is an AI-powered trading strategy that implements a **Long Straddle O
 
 ![image](https://github.com/user-attachments/assets/aba32ac6-d525-46dd-940d-9f2294b515df)
 
-# 📊 StraddleAI Dashboard
+##  Features
 
-The **StraddleAI Dashboard** is a sleek and modern web-based application designed to provide real-time stock insights, price tracking, and trade recommendations.
-
-## ✨ Features
-
-- **📈 Stock Price Chart (24h)**  
+- ** Stock Price Chart (24h)**  
   - Interactive line chart displaying stock price movement over the last 24 hours.
   - Time-stamped price fluctuations for better trend analysis.
 
-- **💰 Real-Time Stock Data**  
+- ** Real-Time Stock Data**  
 
 - **🔎 Trade Parameters & Risk Levels**  
   - Users can assess risk levels categorized as:
-    - 🟢 **Low**
-    - 🟡 **Medium**
-    - 🔴 **High**
+    - **Low**
+    - **Medium**
+    - **High**
   
 - **🤖 AI-Based Trade Recommendation**  
   - The model analyzes current market trends and risk tolerance to provide actionable recommendations.
   - Current suggestion: **✅ Buy NVDA**  
 
-## 🎨 UI/UX Design
+## UI/UX Design
 
 - **Dark-themed interface** for a professional and trader-friendly experience.
 - **Smooth data visualization** with a responsive price chart.
 - **Easy-to-read financial metrics** for quick decision-making.
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - Multi-stock selection for diversified insights
 - Advanced analytics & forecasting models
@@ -102,8 +98,9 @@ trading:
 ## Performance Metrics (Backtest Results)
 | Metric             | Value |
 |--------------------|-------|
-| Initial Balance   | $100,000 |
+| Initial Balance   | $100,00 |
 | Final Balance     | $69,490.70 |
+| Time | 3 years |
 | Rate | 90.38% |
 
 ## Contribution
