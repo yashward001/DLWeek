@@ -24,11 +24,6 @@ The **StraddleAI Dashboard** is a sleek and modern web-based application designe
   - Time-stamped price fluctuations for better trend analysis.
 
 - **💰 Real-Time Stock Data**  
-  - **Current Price:** `$824.18`  
-  - **Daily Change:** `+4.56%`  
-  - **Market Cap:** `2030.00B`  
-  - **52-Week Range:** `$222.97 - $974.00`  
-  - **Volume:** `45.67M`  
 
 - **🔎 Trade Parameters & Risk Levels**  
   - Users can assess risk levels categorized as:
@@ -45,12 +40,6 @@ The **StraddleAI Dashboard** is a sleek and modern web-based application designe
 - **Dark-themed interface** for a professional and trader-friendly experience.
 - **Smooth data visualization** with a responsive price chart.
 - **Easy-to-read financial metrics** for quick decision-making.
-
-## 🚀 Tech Stack
-
-- **Frontend:** React.js (with Tailwind CSS for styling)
-- **Charts:** Recharts.js for interactive stock price visualization
-- **Backend:** API integration for real-time stock data retrieval
 
 ## 📌 Future Enhancements
 
